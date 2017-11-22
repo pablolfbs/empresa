@@ -66,17 +66,25 @@ if (!isset($usuario)) {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/empresa1.jpg" alt="First slide" max-width="100%" height="400px">
+      <img class="d-block w-100" src="img/empresa4.jpg" alt="First slide" max-width="100%" height="400px">
       <div class="carousel-caption d-none d-md-block">
         <h3>Empresas parceiras</h3>
         <p>Diversas empresas com parceria e novas a caminho</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/empresa2.jpg" alt="Second slide" width="100%" height="400px">
+      <img class="d-block w-100" src="img/empresa5.jpeg" alt="Third slide" width="100%" height="400px">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Realização de metas</h3>
+        <p>Todos rumo a vitória</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/empresa3.jpeg" alt="Third slide" width="100%" height="400px">
+      <img class="d-block w-100" src="img/empresa6.jpg" alt="Second slide" width="100%" height="400px">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Trabalho em equipe</h3>
+        <p>Nossa filosofia é em prol da união</p>
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
