@@ -160,10 +160,10 @@ if (!isset($usuario)) {
         Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
       </p>
       <div class="footer-icons">
-        <a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
-        <a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
-        <a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
-        <a href="http://www.github.com"><i class="fa fa-github"></i></a>
+        <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="http://www.github.com" target="_blank"><i class="fa fa-github"></i></a>
       </div>
     </article>
   </footer>

@@ -75,7 +75,7 @@ if (!isset($usuario)) {
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/empresa5.jpeg" alt="Third slide" width="100%" height="400px">
+        <img class="d-block w-100" src="img/empresa5.jpg" alt="Third slide" width="100%" height="400px">
         <div class="carousel-caption d-none d-md-block">
           <h3>Realização de metas</h3>
           <p>Todos rumo a vitória</p>
@@ -102,6 +102,11 @@ if (!isset($usuario)) {
   <section class="texto">
     <div class="container">
       <h1>EMPRESA</h1>
+      <aside style="position: relative; float: right; margin: 20px 0 20px 20px;">
+          <figure>
+            <img src="img/predio.png" alt="">
+          </figure>
+        </aside>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce arcu ante, tempus in ligulavel, vestibulum semper libero. Donec nec consectetur libero. Nulla lectus ante, aliquet vel odio vestibulum, fringilla suscipit sapien. Mauris rutrum commodo urna, a ornare tellus malesuada a. Praesent vitae erat convallis, auctor urna vitae, mattis felis. Mauris ut felis id arcu ornare varius. Integer eu tristique felis, sit amet aliquam ex. In volutpat magna varius dui scelerisque, at tempus augue scelerisque. Duis erat est, blandit suscipit consequat at, laoreet vel purus. Sed molestie aliquet finibus. Maecenas sit amet massa a enim sollicitudin accumsan et vel risus. Aenean ac tortor ex. Praesent massa lorem, molestie id mollis at, ullamcorper et ipsum. Maecenas gravida nulla eu euismod porta.</p>
 
       <p>eleifend lorem ac ante volutpat ullamcorper. Etiam vestibulum quis nulla sit amet imperdiet. Sed nec augue non augue luctus interdum aliquet pharetra ante. Aenean sed risus sed neque semper gravida. Phasellus ac posuere diam, sed pharetra turpis. Curabitur lobortis augue risus, viverra bibendum nibh interdum id. Nulla consequat tempor massa, vitae tempus turpis sagittis at. Nulla viverra enim sed ante sollicitudin dictum. Duis ac euismod felis, tempor placerat augue. Aenean maximus lectus eros, at feugiat elit cursus et.</p>
@@ -161,10 +166,10 @@ if (!isset($usuario)) {
         Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
       </p>
       <div class="footer-icons">
-        <a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
-        <a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
-        <a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
-        <a href="http://www.github.com"><i class="fa fa-github"></i></a>
+        <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="http://www.github.com" target="_blank"><i class="fa fa-github"></i></a>
       </div>
     </article>
   </footer>

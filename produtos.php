@@ -63,9 +63,9 @@ if (!isset($usuario)) {
 	<section class="container" style="margin: 30px auto;">
 		<div class="row" style="margin: auto;">
 			<article class="col-sm-4" style="width: 20rem; margin: auto;">
-				<a href="#" class="badge-light grow">
+				<a href="imagem1.php" target="_blank" class="badge-light grow">
 					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
-						<img class="card-img-top" style="height: 200px" src="img/empresarial.gif" alt="Card image cap">
+						<img class="card-img-top" style="height: 200px" src="img/empresarial1.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -74,7 +74,7 @@ if (!isset($usuario)) {
 				</a>
 			</article>
 			<article class="col-sm-4" style="width: 20rem; margin: auto;">
-				<a href="#" class="badge-light grow">
+				<a href="imagem2.php" target="_blank" class="badge-light grow">
 					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial2.gif" alt="Card image cap">
 						<div class="card-body">
@@ -85,7 +85,7 @@ if (!isset($usuario)) {
 				</a>
 			</article>
 			<article class="col-sm-4" style="width: 20rem; margin: auto;">
-				<a href="#" class="badge-light grow">
+				<a href="imagem3.php" target="_blank" class="badge-light grow">
 					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial3.gif" alt="Card image cap">
 						<div class="card-body">
@@ -98,7 +98,7 @@ if (!isset($usuario)) {
 		</div>
 		<div class="row" style="margin: auto;">
 			<article class="col-sm-4" style="width: 20rem; margin: auto;">
-				<a href="#" class="badge-light grow">
+				<a href="imagem4.php" target="_blank" class="badge-light grow">
 					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial4.gif" alt="Card image cap">
 						<div class="card-body">
@@ -109,7 +109,7 @@ if (!isset($usuario)) {
 				</a>
 			</article>
 			<article class="col-sm-4" style="width: 20rem; margin: auto;">
-				<a href="#" class="badge-light grow">
+				<a href="imagem5.php" target="_blank" class="badge-light grow">
 					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial5.gif" alt="Card image cap">
 						<div class="card-body">
@@ -120,7 +120,7 @@ if (!isset($usuario)) {
 				</a>
 			</article>
 			<article class="col-sm-4" style="width: 20rem; margin: auto;">
-				<a href="#" class="badge-light grow">
+				<a href="imagem6.php" target="_blank" class="badge-light grow">
 					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial6.gif" alt="Card image cap">
 						<div class="card-body">
@@ -171,10 +171,10 @@ if (!isset($usuario)) {
 			Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
 		</p>
 		<div class="footer-icons">
-			<a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
-			<a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
-			<a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
-			<a href="http://www.github.com"><i class="fa fa-github"></i></a>
+			<a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+			<a href="http://www.github.com" target="_blank"><i class="fa fa-github"></i></a>
 		</div>
 		</article>
 	</footer>
