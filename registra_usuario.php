@@ -53,7 +53,7 @@ if ($usuario_existe || $email_existe) {
 $sql = "INSERT INTO usuarios(usuario, email, senha) VALUES ('$usuario', '$email', '$senha');";
 
 if (mysqli_query($link, $sql)) {
-    header('Location: confirmacao_cadastro.php');
+    header('Location: index.php');
 } else {
     echo 'Falha ao inserir o registro!!';
 }

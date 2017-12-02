@@ -22,6 +22,7 @@ if (!isset($usuario)) {
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="css/footer.css">
+	
 </head>
 
 <body>
@@ -60,11 +61,11 @@ if (!isset($usuario)) {
 	</header>
 
 	<section class="container" style="margin: 30px auto;">
-		<div class="row">
-			<article class="col-sm-4" style="width: 20rem;">
+		<div class="row" style="margin: auto;">
+			<article class="col-sm-4" style="width: 20rem; margin: auto;">
 				<a href="#" class="badge-light grow">
-					<div class="card bg-light mb-5" style="max-width: 20rem;">
-						<img class="card-img-top" src="img/fogos.jpg" alt="Card image cap">
+					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+						<img class="card-img-top" style="height: 200px" src="img/empresarial.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -72,10 +73,10 @@ if (!isset($usuario)) {
 					</div>
 				</a>
 			</article>
-			<article class="col-sm-4" style="width: 20rem;">
+			<article class="col-sm-4" style="width: 20rem; margin: auto;">
 				<a href="#" class="badge-light grow">
-					<div class="card bg-light mb-5" style="max-width: 20rem;">
-						<div class="card-header">Header</div>
+					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+						<img class="card-img-top" style="height: 200px" src="img/empresarial2.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -83,10 +84,10 @@ if (!isset($usuario)) {
 					</div>
 				</a>
 			</article>
-			<article class="col-sm-4" style="width: 20rem;">
+			<article class="col-sm-4" style="width: 20rem; margin: auto;">
 				<a href="#" class="badge-light grow">
-					<div class="card bg-light mb-5" style="max-width: 20rem;">
-						<div class="card-header">Header</div>
+					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+						<img class="card-img-top" style="height: 200px" src="img/empresarial3.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -95,11 +96,11 @@ if (!isset($usuario)) {
 				</a>
 			</article>
 		</div>
-		<div class="row">
-			<article class="col-sm-4" style="width: 20rem;">
+		<div class="row" style="margin: auto;">
+			<article class="col-sm-4" style="width: 20rem; margin: auto;">
 				<a href="#" class="badge-light grow">
-					<div class="card bg-light mb-3" style="max-width: 20rem;">
-						<div class="card-header">Header</div>
+					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+						<img class="card-img-top" style="height: 200px" src="img/empresarial4.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -107,10 +108,10 @@ if (!isset($usuario)) {
 					</div>
 				</a>
 			</article>
-			<article class="col-sm-4" style="width: 20rem;">
+			<article class="col-sm-4" style="width: 20rem; margin: auto;">
 				<a href="#" class="badge-light grow">
-					<div class="card bg-light mb-3" style="max-width: 20rem;">
-						<div class="card-header">Header</div>
+					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+						<img class="card-img-top" style="height: 200px" src="img/empresarial5.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -118,10 +119,10 @@ if (!isset($usuario)) {
 					</div>
 				</a>
 			</article>
-			<article class="col-sm-4" style="width: 20rem;">
+			<article class="col-sm-4" style="width: 20rem; margin: auto;">
 				<a href="#" class="badge-light grow">
-					<div class="card bg-light mb-3" style="max-width: 20rem;">
-						<div class="card-header">Header</div>
+					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+						<img class="card-img-top" style="height: 200px" src="img/empresarial6.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -161,7 +162,7 @@ if (!isset($usuario)) {
 		</div>
 		<div>
 			<i class="fa fa-envelope"></i>
-			<p><a href="mailto:suporte@company.com">suporte@empresa.com</a></p>
+			<p><a href="mailto:suporte@empresa.com">suporte@empresa.com</a></p>
 		</div>
 		</article>
 		<article class="footer-right">

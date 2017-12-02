@@ -104,7 +104,7 @@ $erro_email = isset($_GET['erro_email']) ? $_GET['erro_email'] : 0;
 			</div>
 			<div>
 				<i class="fa fa-envelope"></i>
-				<p><a href="mailto:suporte@company.com">suporte@empresa.com</a></p>
+				<p><a href="mailto:suporte@empresa.com">suporte@empresa.com</a></p>
 			</div>
 		</article>
 		<article class="footer-right">
