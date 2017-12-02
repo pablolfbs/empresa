@@ -2,6 +2,7 @@
 session_start();
 
 $usuario = $_SESSION['usuario'];
+$email = $_SESSION['email'];
 
 if (!isset($usuario)) {
   header('Location: index.php?erro=1');
@@ -48,9 +49,18 @@ if (!isset($usuario)) {
             <li class="nav-item">
               <a class="nav-link" href="produtos.php">produtos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><?= $usuario ?></a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false"><?= $usuario ?></a>
+              <ul class="dropdown-menu" aria-labelledby="informações">
+                <div class="col-md-12">
+                  <p>Mais Informações</p>
+                  <p>Nome: <?= $usuario ?></p>
+                  <p>E-mail: <?= $email ?></p>
+                </div>
+              </ul>
             </li>
+          </li>
             <li class="nav-item active">
               <a class="nav-link" href="sair.php">sair</a>
             </li>
