@@ -60,7 +60,6 @@ if (!isset($usuario)) {
 							</div>
 						  </ul>
 						</li>
-					  </li>
 						<li class="nav-item active">
 							<a class="nav-link" href="sair.php">sair</a>
 						</li>

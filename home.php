@@ -50,16 +50,15 @@ if (!isset($usuario)) {
             <a class="nav-link" href="produtos.php">produtos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false"><?= $usuario ?></a>
-              <ul class="dropdown-menu" aria-labelledby="informações">
-                <div class="col-md-12">
-                  <p>Mais Informações</p>
-                  <p>Nome: <?= $usuario ?></p>
-                  <p>E-mail: <?= $email ?></p>
-                </div>
-              </ul>
-            </li>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $usuario ?></a>
+            <ul class="dropdown-menu" aria-labelledby="informações">
+              <div class="col-md-12">
+                <p>Mais Informações</p>
+                <div class="dropdown-divider"></div>
+                <p>Nome: <?= $usuario ?></p>
+                <p>E-mail: <?= $email ?></p>
+              </div>
+            </ul>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="sair.php">sair</a>
@@ -78,21 +77,21 @@ if (!isset($usuario)) {
     <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="img/empresa1.jpg" alt="First slide" max-width="100%" height="400px">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block text-dark">
         <h3>Empresas parceiras</h3>
         <p>Diversas empresas com parceria e novas a caminho</p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/empresa2.jpg" alt="Third slide" width="100%" height="400px">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block text-dark">
         <h3>Realização de metas</h3>
         <p>Todos rumo a vitória</p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/empresa3.jpg" alt="Second slide" width="100%" height="400px">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block text-dark">
         <h3>Trabalho em equipe</h3>
         <p>Nossa filosofia é em prol da união</p>
       </div>
@@ -124,10 +123,10 @@ if (!isset($usuario)) {
   </section>
 
   <figure class="parallax">
-    <figcaption class="figure-caption text-right">
+    <figcaption class="figure-caption text-right text-dark">
       <h4>Busque sua oportunidade para vencer.</h4>
     </figcaption>
-    <figcaption class="figure-caption text-right">
+    <figcaption class="figure-caption text-right text-dark">
       <p>Empresa de desenvolvimento para novos talentos.</p>
     </figcaption>
   </figure>

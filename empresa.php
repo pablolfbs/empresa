@@ -84,14 +84,14 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100" src="img/empresa4.jpg" alt="First slide" max-width="100%" height="400px">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block text-dark">
           <h3>Empresas parceiras</h3>
           <p>Diversas empresas com parceria e novas a caminho</p>
         </div>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="img/empresa5.jpg" alt="Third slide" width="100%" height="400px">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block text-dark">
           <h3>Realização de metas</h3>
           <p>Todos rumo a vitória</p>
         </div>
@@ -135,10 +135,10 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
   </section>
 
   <figure class="parallax">
-    <figcaption class="figure-caption text-right">
+    <figcaption class="figure-caption text-right text-dark">
       <h4>Busque sua oportunidade para vencer.</h4>
     </figcaption>
-    <figcaption class="figure-caption text-right">
+    <figcaption class="figure-caption text-right text-dark">
       <p>Empresa de desenvolvimento para novos talentos.</p>
     </figcaption>
   </figure>

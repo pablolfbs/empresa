@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $erro_usuario = isset($_GET['erro_usuario']) ? $_GET['erro_usuario'] : 0;
 $erro_email = isset($_GET['erro_email']) ? $_GET['erro_email'] : 0;
 ?>
@@ -42,7 +44,7 @@ $erro_email = isset($_GET['erro_email']) ? $_GET['erro_email'] : 0;
 		</nav>
 	</header>
 
-	<section class="container" style="margin: 100px auto">
+	<section class="container mt-3 mb-5 pt-5 pb-5">
 		<div class="row">
 			<div class="col-md-4"></div>
 			<div class="col-md-4">
@@ -131,6 +133,7 @@ $erro_email = isset($_GET['erro_email']) ? $_GET['erro_email'] : 0;
 	crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
 	crossorigin="anonymous"></script>
+
 </body>
 
 </html>
