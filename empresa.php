@@ -15,7 +15,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
   crossorigin="anonymous">
   
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
   <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -83,21 +83,21 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="img/empresa4.jpg" alt="First slide" max-width="100%" height="400px">
+        <img class="d-block w-100" src="img/emp4.jpg" alt="First slide">
         <div class="carousel-caption d-none d-md-block text-dark">
           <h3>Empresas parceiras</h3>
           <p>Diversas empresas com parceria e novas a caminho</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/empresa5.jpg" alt="Third slide" width="100%" height="400px">
+        <img class="d-block w-100" src="img/emp5.jpg" alt="Second slide">
         <div class="carousel-caption d-none d-md-block text-dark">
           <h3>Realização de metas</h3>
           <p>Todos rumo a vitória</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/empresa6.jpg" alt="Second slide" width="100%" height="400px">
+        <img class="d-block w-100" src="img/emp6.jpg" alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
           <h3>Trabalho em equipe</h3>
           <p>Nossa filosofia é em prol da união</p>
@@ -114,14 +114,14 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
     </a>
   </figure>
 
-  <section class="texto">
+  <section class="bg-dark pt-5 pb-4 text-muted text-justify">
     <div class="container">
       <h1>EMPRESA</h1>
-        <aside style="position: relative; float: right; margin: 20px 0 20px 20px;">
-          <figure>
-            <img src="img/predio.png" alt="">
-          </figure>
-        </aside>
+      <aside>
+        <figure class="float-right ml-4 mt-4 mb-3">
+          <img class="w-100" src="img/predio.png">
+        </figure>
+      </aside>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce arcu ante, tempus in ligulavel, vestibulum semper libero. Donec nec consectetur libero. Nulla lectus ante, aliquet vel odio vestibulum, fringilla suscipit sapien. Mauris rutrum commodo urna, a ornare tellus malesuada a. Praesent vitae erat convallis, auctor urna vitae, mattis felis. Mauris ut felis id arcu ornare varius. Integer eu tristique felis, sit amet aliquam ex. In volutpat magna varius dui scelerisque, at tempus augue scelerisque. Duis erat est, blandit suscipit consequat at, laoreet vel purus. Sed molestie aliquet finibus. Maecenas sit amet massa a enim sollicitudin accumsan et vel risus. Aenean ac tortor ex. Praesent massa lorem, molestie id mollis at, ullamcorper et ipsum. Maecenas gravida nulla eu euismod porta.</p>
 
       <p>eleifend lorem ac ante volutpat ullamcorper. Etiam vestibulum quis nulla sit amet imperdiet. Sed nec augue non augue luctus interdum aliquet pharetra ante. Aenean sed risus sed neque semper gravida. Phasellus ac posuere diam, sed pharetra turpis. Curabitur lobortis augue risus, viverra bibendum nibh interdum id. Nulla consequat tempor massa, vitae tempus turpis sagittis at. Nulla viverra enim sed ante sollicitudin dictum. Duis ac euismod felis, tempor placerat augue. Aenean maximus lectus eros, at feugiat elit cursus et.</p>

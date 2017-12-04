@@ -22,7 +22,7 @@ if (!isset($usuario)) {
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
   crossorigin="anonymous">
   
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
   <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -50,8 +50,8 @@ if (!isset($usuario)) {
             <a class="nav-link" href="produtos.php">produtos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $usuario ?></a>
-            <ul class="dropdown-menu" aria-labelledby="informações">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInfo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $usuario ?></a>
+            <ul class="dropdown-menu" id="info" aria-labelledby="informações">
               <div class="col-md-12">
                 <p>Mais Informações</p>
                 <div class="dropdown-divider"></div>
@@ -76,24 +76,24 @@ if (!isset($usuario)) {
     </ol>
     <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/empresa1.jpg" alt="First slide" max-width="100%" height="400px">
+      <img class="d-block w-100" src="img/emp1.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block text-dark">
         <h3>Empresas parceiras</h3>
         <p>Diversas empresas com parceria e novas a caminho</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/empresa2.jpg" alt="Third slide" width="100%" height="400px">
-      <div class="carousel-caption d-none d-md-block text-dark">
-        <h3>Realização de metas</h3>
-        <p>Todos rumo a vitória</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/empresa3.jpg" alt="Second slide" width="100%" height="400px">
+      <img class="d-block w-100" src="img/emp2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block text-dark">
         <h3>Trabalho em equipe</h3>
         <p>Nossa filosofia é em prol da união</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/emp3.jpeg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block text-dark">
+        <h3>Realização de metas</h3>
+        <p>Todos rumo a vitória</p>
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@ if (!isset($usuario)) {
     </a>
   </figure>
 
-  <section class="texto">
+  <section class="bg-dark pt-5 pb-4 text-muted text-justify">
     <div class="container">
       <h1>EMPRESA</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce arcu ante, tempus in ligulavel, vestibulum semper libero. Donec nec consectetur libero. Nulla lectus ante, aliquet vel odio vestibulum, fringilla suscipit sapien. Mauris rutrum commodo urna, a ornare tellus malesuada a. Praesent vitae erat convallis, auctor urna vitae, mattis felis. Mauris ut felis id arcu ornare varius. Integer eu tristique felis, sit amet aliquam ex. In volutpat magna varius dui scelerisque, at tempus augue scelerisque. Duis erat est, blandit suscipit consequat at, laoreet vel purus. Sed molestie aliquet finibus. Maecenas sit amet massa a enim sollicitudin accumsan et vel risus. Aenean ac tortor ex. Praesent massa lorem, molestie id mollis at, ullamcorper et ipsum. Maecenas gravida nulla eu euismod porta.</p>
@@ -188,6 +188,18 @@ if (!isset($usuario)) {
   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
   crossorigin="anonymous"></script>
+
+  <script>
+		$(document).ready(function() {
+			$("#navbarDropdownInfo").mouseenter(function(){
+				$("#info").show(); 
+			});
+			$("#navbarDropdownInfo").mouseleave(function(){
+			  $("#info").hide(); 
+			});
+		});
+  </script>
+  
 </body>
 
 </html>

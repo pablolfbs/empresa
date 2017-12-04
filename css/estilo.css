@@ -45,43 +45,13 @@ figure{
 	padding-top: 180px;
 	text-shadow: black 2px 2px 5px;
 }
-.imagem{
-	width: 250px;
-	height: 200px;
-	border: 1px solid #454444;
-}
-.texto {
-	text-align: justify;
-	background-color: #F1F8E0;
-	padding-bottom: 30px;
-	padding-top: 30px;
-}
-.userIcone {
-	padding-right: 30px;
-}
-.textoEndereco {
-	font-size: 14px;
-	font-family: "Verdana";
-	text-align: left;
-}
-.textoEncontro1 {
-	font-size: 14px;
-	font-family: "Verdana";
-	text-align: left;
-}
-.textoEncontro2 {
-	font-size: 14px;
-	font-family: "Verdana";
-	text-align: left;
-	margin-left: 50px;
-}
 .parallax { 
     /* The image used */
-	background-image: url("../img/empresa1.jpg");
+	background-image: url("../img/empresa7.jpg");
 	background-color: #cccccc;
 
     /* Set a specific height */
-    height: 500px; 
+    height: 450px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

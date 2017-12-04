@@ -21,7 +21,7 @@ if (!isset($usuario)) {
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="stylesheet" href="css/footer.css">
 	
 </head>
@@ -50,11 +50,12 @@ if (!isset($usuario)) {
 							<a class="nav-link" href="produtos.php">produtos</a>
 						</li>
 						<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInfo" role="button" data-toggle="dropdown" aria-haspopup="true"
 						  aria-expanded="false"><?= $usuario ?></a>
-						  <ul class="dropdown-menu" aria-labelledby="informações">
+						  <ul class="dropdown-menu" id="info" aria-labelledby="informações">
 							<div class="col-md-12">
 							  <p>Mais Informações</p>
+							  <div class="dropdown-divider"></div>
 							  <p>Nome: <?= $usuario ?></p>
 							  <p>E-mail: <?= $email ?></p>
 							</div>
@@ -69,11 +70,11 @@ if (!isset($usuario)) {
 		</nav>
 	</header>
 
-	<section class="container" style="margin: 30px auto;">
-		<div class="row" style="margin: auto;">
-			<article class="col-sm-4" style="width: 20rem; margin: auto;">
+	<section class="container mt-5 mb-4 mx-auto">
+		<div class="row mx-auto">
+			<article class="col-sm-4 mb-4 mx-auto" style="width: 20rem;">
 				<a href="imagem1.php" target="_blank" class="badge-light grow">
-					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+					<div class="card bg-light mx-auto text-center" style="max-width: 20rem;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial1.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
@@ -82,9 +83,9 @@ if (!isset($usuario)) {
 					</div>
 				</a>
 			</article>
-			<article class="col-sm-4" style="width: 20rem; margin: auto;">
+			<article class="col-sm-4 mb-4 mx-auto" style="width: 20rem;">
 				<a href="imagem2.php" target="_blank" class="badge-light grow">
-					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+					<div class="card bg-light mx-auto text-center" style="max-width: 20rem;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial2.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
@@ -93,9 +94,9 @@ if (!isset($usuario)) {
 					</div>
 				</a>
 			</article>
-			<article class="col-sm-4" style="width: 20rem; margin: auto;">
+			<article class="col-sm-4 mb-4 mx-auto" style="width: 20rem;">
 				<a href="imagem3.php" target="_blank" class="badge-light grow">
-					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+					<div class="card bg-light mx-auto text-center" style="max-width: 20rem;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial3.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
@@ -105,10 +106,10 @@ if (!isset($usuario)) {
 				</a>
 			</article>
 		</div>
-		<div class="row" style="margin: auto;">
-			<article class="col-sm-4" style="width: 20rem; margin: auto;">
+		<div class="row mx-auto" style="margin: auto;">
+			<article class="col-sm-4 mb-4 mx-auto" style="width: 20rem;">
 				<a href="imagem4.php" target="_blank" class="badge-light grow">
-					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+					<div class="card bg-light mx-auto text-center" style="max-width: 20rem;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial4.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
@@ -117,9 +118,9 @@ if (!isset($usuario)) {
 					</div>
 				</a>
 			</article>
-			<article class="col-sm-4" style="width: 20rem; margin: auto;">
+			<article class="col-sm-4 mb-4 mx-auto" style="width: 20rem;">
 				<a href="imagem5.php" target="_blank" class="badge-light grow">
-					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+					<div class="card bg-light mx-auto text-center" style="max-width: 20rem;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial5.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
@@ -128,9 +129,9 @@ if (!isset($usuario)) {
 					</div>
 				</a>
 			</article>
-			<article class="col-sm-4" style="width: 20rem; margin: auto;">
+			<article class="col-sm-4 mb-4 mx-auto" style="width: 20rem;">
 				<a href="imagem6.php" target="_blank" class="badge-light grow">
-					<div class="card bg-light mb-5 text-center" style="max-width: 20rem; margin: auto;">
+					<div class="card bg-light mx-auto text-center" style="max-width: 20rem;">
 						<img class="card-img-top" style="height: 200px" src="img/empresarial6.gif" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Light card title</h4>
@@ -195,5 +196,17 @@ if (!isset($usuario)) {
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	<script>
+		$(document).ready(function() {
+			$("#navbarDropdownInfo").mouseenter(function(){
+				$("#info").show(); 
+			});
+			$("#navbarDropdownInfo").mouseleave(function(){
+				$("#info").hide(); 
+			});
+		});
+	</script>
+
 </body>
 </html>
