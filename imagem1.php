@@ -12,7 +12,7 @@
 </head>
   <body>
 
-    <img style="width: 100%; height: 100vh" src="img/empresarial.gif" alt="Card image cap">
+    <img style="width: 100%; height: 100vh" src="img/empresarial1.gif" alt="Card image cap">
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
